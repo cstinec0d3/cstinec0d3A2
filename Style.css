@@ -1,0 +1,48 @@
+body {
+	background:#E6EAFF;
+	color: ;		
+	text-align: left;
+	font-family: arial;
+	font-size:18px;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+h1 {
+	border-style: dotted;
+	border-width: 3px;
+	border-color: white ;
+	text-align: center;
+	padding: 1%;
+	width: 30%;
+	height:10%
+	margin:auto;
+}
+
+
+div {
+	padding: 1%;
+
+}
+nav ul li {
+	background: white;
+	color: black;
+	display: inline-block;
+	list-style-type:none;
+	border-radius:5px;
+	padding: 5px 25px;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.main-nav li a:hover {
+	color: A084CA;
+}
+
+footer {
+	font-size:10px;
+	padding: 1%;
+
+}
