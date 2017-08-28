@@ -2,7 +2,7 @@ body {
 	background:#E6EAFF;
 	color: ;		
 	text-align: left;
-	font-family: monospace;
+	font-family: ;
 	font-size:18px;
 	padding-left: 50px;
 	padding-top: 40px;
@@ -18,11 +18,11 @@ h1 {
 	margin:auto;
 }
 
-
-div {
+h2 {
 	padding: 1%;
-
 }
+
+
 nav ul li {
 	background: white;
 	color: black;
