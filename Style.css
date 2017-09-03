@@ -1,25 +1,23 @@
 body {
-	background:#E6EAFF;
+	background:white;
 	color: ;		
 	text-align: left;
-	font-family: ;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
-	padding-left: 50px;
-	padding-top: 40px;
+	padding: 4%;
+
 }
+
 h1 {
-	border-style: dotted;
-	border-width: 3px;
-	border-color: white ;
-	text-align: center;
-	padding: 1%;
-	width: 30%;
-	height:10%
-	margin:auto;
+	float: left;
+	font-family: 'Droid Sans Mono', monospace;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	margin: auto;
 }
 
 h2 {
-	padding: 1%;
+	padding: 0%;
 }
 
 
@@ -28,17 +26,33 @@ nav ul li {
 	color: black;
 	display: inline-block;
 	list-style-type:none;
-	border-radius:5px;
+	float: right;
 	padding: 5px 25px;
 }
 
 .main-nav li a {
 	text-decoration: none;
 	font-weight: bold;
+	color: black;
 }
 
 .main-nav li a:hover {
 	color: A084CA;
+}
+
+.banner {
+	width: 100%;
+	display: block;
+}
+
+.banner > .banner-image {
+	width: 100%;
+	display: block;
+}
+
+.qgis {
+	width:50%;
+	height:50%;
 }
 
 footer {
