@@ -9,7 +9,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #map { position:absolute; top:0; bottom:0; width:80%; }
         sidebar {position: fixed; left: 80%; padding: 1%; text-align: left;}
     </style>
 </head>
@@ -23,7 +23,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
     center: [151.139,-33.849],
-    zoom: 5,
+    zoom: 8,
     pitch: 40,
     bearing: 20
 });
@@ -44,16 +44,16 @@ map.on('load', function() {
             // https://www.mapbox.com/mapbox-gl-style-spec/#types-function
             'fill-extrusion-color': {
                 // Get the fill-extrusion-color from the source 'color' property.
-                'property': '2011-6',
+                'property': '16_2534',
                 "stops": [
-                    [0, 'black'],
-                    [100000, 'orange']
+                    [0, 'maroon'],
+                    [15000, 'yellow']
                 ]
         
             },
             'fill-extrusion-height': {
                 // Get fill-extrusion-height from the source 'height' property.
-                'property': '2011P',
+                'property': '20116-2534',
                 "stops": [
                     [0, 0],
                     [1, 65535]
@@ -73,9 +73,8 @@ map.on('load', function() {
 </script>
 
 <sidebar>
-    <h1> This is my map </h1>
-    <p> This is a story about my map </p>
-
+    <h1> Where are 24-35 year olds living? </h1>
+    <p> This map visualises the percentage growth of 24-35 year olds living within the CBD over the 5 year time period of 2011-2016. <br>Height in this map visually represents growth and predominately exists within the Sydney CBD. The brighter green represents where most 24-35 year olds are living. <br> What could this say about Sydney's planning over this 5 year time period? </p>
 </sidebar>
 
 
