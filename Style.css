@@ -8,6 +8,11 @@ body {
 
 }
 
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+}
+
 h1 {
 	float: left;
 	font-family: 'Droid Sans Mono', monospace;
@@ -26,8 +31,12 @@ nav ul li {
 	color: black;
 	display: inline-block;
 	list-style-type:none;
-	float: right;
 	padding: 5px 25px;
+}
+
+.main-nav{
+	float: right;
+
 }
 
 .main-nav li a {
@@ -60,3 +69,8 @@ footer {
 	padding: 1%;
 
 }
+
+
+#map { position:absolute; top:0; bottom:0; width:80%; }
+
+sidebar {position: fixed; left: 80%; padding: 1%; text-align: left;}
