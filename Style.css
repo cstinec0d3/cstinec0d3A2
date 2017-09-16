@@ -10,8 +10,11 @@ body {
 }
 
 .homepage .main-nav li a {
-	color: white ;
-	<!-- This is an attempt to change only the Homepage navigation bar -->
+	color: white;
+}
+
+.page2 .main-nav li a:hover {
+	color: #FFC300;
 }
 
 .intro {
@@ -73,7 +76,7 @@ footer {
 
 #map { position:absolute; top:0; bottom:0; width:80%; }
 
-sidebar {position: fixed; left: 80%; padding: 1%; text-align: left;
+sidebar {position: fixed; left: 80%; padding: 3%; text-align: left;
 
 }
 
