@@ -52,9 +52,6 @@ nav ul li {
 
 .main-nav{
 	float: right;
-	padding-right: 1%;
-	<!-- Trying to keep the navigation bar centralised in the sidebar -->
-
 }
 
 .main-nav li a {
@@ -66,18 +63,6 @@ nav ul li {
 .main-nav li a:hover {
 	color: #FFC300;
 }
-
-
-.banner {
-	width: 100%;
-	display: block;
-}
-
-.banner > .banner-image {
-	width: 100%;
-	display: block;
-}
-
 
 footer {
 	font-size:10px;
