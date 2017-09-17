@@ -17,15 +17,20 @@
 
 <body>
 
-    <nav>
+<div class="container">
+            <a href="index.html">HOME</a>
+            <a href="#news">ABOUT</a>
+            <div class="dropdown">
+                <button class="dropbtn">MAPPING</button>
+                <div class="dropdown-content">
+                <a href="page_2.html">Age 0-14</a>
+                    <a href="page_3.html">Age 25-34</a>
+                    <a href="#">Age 35-44</a>
+                    <a href="#">Age 75+</a>
+                </div>
+            </div> 
+        </div>
 
-        <ul class="main-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="page_2.html">TEST</a></li>
-            <li><a href="page_3.html">MAPPING</a></li>
-        </ul>
-
-    </nav>
 
     <div id='map'></div>
     <script>
