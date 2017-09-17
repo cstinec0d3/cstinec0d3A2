@@ -157,10 +157,10 @@ sidebar {position: fixed; left: 75%; padding: 0% 0% 0% 0%; text-align: left;
 }
 
 sidebar h1{
-	padding: 3% 2% 2% 2%;
+	padding: 3% 2% 2% 3%;
 }
 
-sidebar p{
-	padding: 3% 2% 2% 2%;
+.sidebar-text{
+	padding: 3% 3% 3% 2%;
 }
 
