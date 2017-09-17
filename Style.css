@@ -9,17 +9,6 @@ body {
 	width:100%;
 }
 
-.dataset{
-	background:white;		
-	text-align: left;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
-	margin:auto;
-	padding: 3%;
-	height:100%;
-	width:100%;
-	overflow: scroll;
-}
 
 .homepage .container a{
 	color: white;
@@ -45,23 +34,27 @@ p {
 h1 {
 	float: left;
 	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
-	padding-bottom: 20px;
 	margin: auto;
 }
 
 h2 {
 	padding: 0;
 	margin: 0;
-	text-align: center;
+	text-align: left;
+	color: #E05201;
 }
 
+h3 {
+	color: #E05201;
+	font-size: 18px;
+
+}
 
 .container {
     overflow: hidden;
     background-color: none;
     font-family: 'Roboto', sans-serif;
-    float: right
+    float:right;
 }
 
 .container a {
@@ -117,16 +110,48 @@ h2 {
 }
 
 
-footer {
-	font-size:10px;
-	padding: 1%;
+#dataset-about {
+	padding: 60px 30px;
+	background: url("datasetbanner.jpg") no-repeat 50% 50%;;
+	text-align: center;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	line-height: 1.3;
+	text-rendering: optimizeLegibility;
 
 }
 
+#dataset-container {
+	max-width: 85%;
+	width:960px;
+	margin: 0 auto;
+}
 
-#map { position:absolute; top:0; bottom:0; width:78%; }
+.dataset-heading {
+	margin:0
+	font-size:50px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 1rem;
+	padding-top:2rem;
+	text-align: center;
+}
 
-sidebar {position: fixed; left: 80%; padding: 3% 0% 0% 0%; text-align: left;
+.dataset-text {
+	margin-bottom: 17px;
+	font-size: 18px;
+	line-height: 1.5;
+}
 
+
+#map { position:absolute; top:0; bottom:0; width:75%; }
+
+sidebar {position: fixed; left: 75%; padding: 0% 0% 0% 0%; text-align: left;
+
+}
+
+sidebar h1, p{
+	padding: 3% 2% 2% 2%;
 }
 
