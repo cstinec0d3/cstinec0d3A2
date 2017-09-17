@@ -9,6 +9,18 @@ body {
 	width:100%;
 }
 
+.dataset{
+	background:white;		
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	margin:auto;
+	padding: 3%;
+	height:100%;
+	width:100%;
+	overflow: scroll;
+}
+
 .homepage .container a{
 	color: white;
 }
