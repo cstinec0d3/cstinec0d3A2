@@ -29,6 +29,7 @@ body {
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
+
 }
 
 h1 {
@@ -151,7 +152,11 @@ sidebar {position: fixed; left: 75%; padding: 0% 0% 0% 0%; text-align: left;
 
 }
 
-sidebar h1, p{
+sidebar h1{
+	padding: 3% 2% 2% 2%;
+}
+
+sidebar p{
 	padding: 3% 2% 2% 2%;
 }
 
