@@ -45,37 +45,6 @@ h2 {
 }
 
 
-nav ul li {
-	background: none;
-	color: black;
-	display: inline-block;
-	list-style-type:none;
-	padding: 5px 25px;
-}
-
-.main-nav{
-	float: right;
-}
-
-.main-nav li a {
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-}
-
-.main-nav li a:hover {
-	color: #FFC300;
-}
-
-.main-nav li a .mapdrop-btn {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 5px 25px;
-	text-decoration: none;
-}
-
-
 .container {
     overflow: hidden;
     background-color: none;
